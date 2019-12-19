@@ -8,14 +8,14 @@ public class Main {
         brazil.title = "Brazil";
         brazil.zipCode = 123456;
 
-        Person alfredo = new Person();
+        Person alfredo = new Person("Alfredo", 21, brazil, Sex.MALE);
 
         alfredo.name = "Alfredo";
         alfredo.age = 21;
         alfredo.country = brazil;
         alfredo.sex = Sex.MALE;
 
-        Person tereza = new Person();
+        Person tereza = new Person("Tereza", 20, brazil, Sex.FAMALE);
 
         tereza.name = "Tereza";
         tereza.age = 20;
@@ -32,7 +32,7 @@ public class Main {
         System.out.println(newAge);
         System.out.println(alfredo.growOld());
 
-        System.out.println(alfredo);
+        System.out.println(alfredo.toString());
         System.out.println(tereza);
 
 
