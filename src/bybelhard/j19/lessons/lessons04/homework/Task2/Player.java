@@ -8,19 +8,19 @@ public class Player {
         y = ay;
     }
 
-        double getX() {
+    double getX() {
         return x;
     }
 
-        double getY() {
+    double getY() {
         return y;
     }
 
-       void moveX(double dx) {
+    void moveX(double dx) {
         x = x + dx;
     }
 
-        void moveY(double dy) {
+    void moveY(double dy) {
         y = y + dy;
     }
 }
